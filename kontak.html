@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Clothing.co</title>
+</head>
+
+<body bgcolor="#f9f9f9">
+    <section aria-label="Kontak Clothing.co">
+        <div align="center">
+            <font face="Verdana" color="#333333">
+                <h2>Hubungi Kami</h2>
+                <p><i>Kami siap membantu menjawab pertanyaan gaya dan pesanan Anda.</i></p>
+            </font>
+        </div>
+
+        <table border="0" width="85%" align="center" cellpadding="20" cellspacing="0" bgcolor="#ffffff">
+            <tr>
+                <td width="40%" valign="top" bgcolor="#2C3E50">
+                    <font face="Verdana" color="#ffffff">
+                        <h3>Informasi Toko</h3>
+                        <hr color="#F1C40F" width="30%" align="left">
+                    </font>
+
+                    <address>
+                        <font face="Arial" size="2" color="#ecf0f1">
+                            <p>
+                                <b>Clothing.co Headquarters</b><br>
+                                Jl. Palmerah Barat No. 12,<br>
+                                Jakarta Barat, 11480<br>
+                                Indonesia
+                            </p>
+                            <p>
+                                &#9742; &nbsp; (021) 555-8899<br><br>
+                                &#9993; &nbsp; <a href="mailto:hello@clothing.co">
+                                    <font color="#F1C40F">hello@clothing.co</font>
+                                </a>
+                            </p>
+                            <p>
+                                <b>Jam Operasional:</b><br>
+                                Senin &ndash; Jumat &raquo; 09:00 - 17:00<br>
+                                Sabtu &ndash; Minggu &raquo; Libur
+                            </p>
+                        </font>
+                    </address>
+                </td>
+
+                <td width="60%" valign="top">
+                    <font face="Verdana" color="#333333">
+                        <h3>Kirim Pesan</h3>
+                    </font>
+
+                    <form action="mailto:hello@clothing.co" method="post" enctype="text/plain">
+                        <table border="0" width="100%" cellpadding="8" cellspacing="0">
+                            <tr>
+                                <td width="30%">
+                                    <font face="Arial" size="2"><b><label for="nama">Nama Lengkap :</label></b></font>
+                                </td>
+                                <td width="70%">
+                                    <input type="text" id="nama" name="Nama" size="35" placeholder="Masukkan nama Anda"
+                                        required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <font face="Arial" size="2"><b><label for="email">Email :</label></b></font>
+                                </td>
+                                <td>
+                                    <input type="email" id="email" name="Email" size="35" placeholder="nama@email.com"
+                                        required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <font face="Arial" size="2"><b>Kategori :</b></font>
+                                </td>
+                                <td>
+                                    <font face="Arial" size="2">
+                                        <fieldset>
+                                            <legend>Pilih kategori</legend>
+                                            <input type="radio" id="topik-produk" name="Topik" value="Info Produk" required>
+                                            <label for="topik-produk">Info Produk</label>
+                                            &nbsp;
+                                            <input type="radio" id="topik-kirim" name="Topik" value="Pengiriman">
+                                            <label for="topik-kirim">Status Pengiriman</label>
+                                            &nbsp;
+                                            <input type="radio" id="topik-refund" name="Topik" value="Refund">
+                                            <label for="topik-refund"><i>Return/Refund</i></label>
+                                        </fieldset>
+                                    </font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <font face="Arial" size="2"><b><label for="pesan">Pesan Anda :</label></b></font>
+                                </td>
+                                <td>
+                                    <textarea name="Pesan" rows="6" cols="40"
+                                        placeholder="Tuliskan detail pertanyaan Anda di sini..." id="pesan"
+                                        required></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <br>
+                                    <input type="submit" value="Kirim Pesan"> &nbsp;
+                                    <input type="reset" value="Bersihkan Form">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+        <br><br>
+    </section>
+</body>
+
+</html>
